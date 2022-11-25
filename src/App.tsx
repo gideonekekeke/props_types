@@ -1,12 +1,12 @@
 import React from "react";
-import Header from "./Components/Header";
-import Body from "./Components/Body";
+import Header from "./Components/Header/Header";
+import AllRoutes from "./Components/Routes/AllRoutes";
 
 const App = () => {
 	return (
 		<div>
 			<Header />
-			<Body />
+			<AllRoutes />
 		</div>
 	);
 };
